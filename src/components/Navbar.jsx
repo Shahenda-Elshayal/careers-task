@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <div className="navbar bg-gradient-to-r from-black via-gray-900 to-black shadow-sm h-[73px]">
+    <div className="navbar bg-gradient-to-r from-black via-gray-900 to-black h-[73px]">
       <div className="w-full grid grid-cols-12 px-2 md:px-0">
         <div className="col-span-12 md:col-start-2 md:col-span-10 lg:col-start-3 lg:col-span-8 flex justify-between items-center">
           {/* Left side: Logo + Nav links */}
