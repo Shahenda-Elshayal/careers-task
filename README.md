@@ -14,7 +14,7 @@ This project is a **responsive landing page** built with **React.js**, based on 
 
 ## 📝 Notes
 - Two elements from the Figma design were implemented as **static images** instead of detailed components:
-  - ![Screenshot 1](./path-to-screenshot1.png)
+  - ![Screenshot 1](https://github.com/Shahenda-Elshayal/careers-task/issues/1)
   - ![Screenshot 2](./path-to-screenshot2.png)
 - The rest of the design is implemented using components and follows the given design specifications (spacing, typography, hover states).
 
