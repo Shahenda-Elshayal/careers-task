@@ -14,13 +14,13 @@ export default function TestimonialsSection() {
       <div className="col-span-12 col-start-1 md:col-start-2 md:col-span-10 flex flex-col lg:flex-row justify-center flex-1 border border-[#1F1F1F]">
         {/* left card logos */}
         <div className="flex flex-row lg:flex-col">
-          <div className="h-[142px] border flex-1 border-[#E5E7EB] w-[142px] flex items-center justify-center">
+          <div className="h-[142px] border flex-1 border-[#E5E7EB] w-[142px] flex items-center justify-center hover:border-[#E5E7EB]">
             <img src={Logo1} alt="Logo one" />
           </div>
-          <div className="h-[142px] w-[142px] flex-1 flex items-center justify-center border border-t-0 border-[#1F1F1F]">
+          <div className="h-[142px] w-[142px] flex-1 flex items-center justify-center border border-t-0 border-[#1F1F1F] hover:border-[#E5E7EB] hover:border transition">
             <img src={Logo2} alt="Logo two" />
           </div>
-          <div className="h-[142px] w-[142px] flex-1  flex items-center justify-center lg:border-r border-b lg:border-b-0 lg:border-l border-[#1F1F1F]">
+          <div className="h-[142px] w-[142px] flex-1  flex items-center justify-center lg:border-r border-b lg:border-b-0 lg:border-l border-[#1F1F1F] hover:border-[#E5E7EB] hover:border transition">
             <img src={Logo3} alt="Logo three" />
           </div>
         </div>
@@ -51,13 +51,13 @@ export default function TestimonialsSection() {
         </div>
         {/* right card logos */}
         <div className="flex flex-row lg:flex-col">
-          <div className="h-[142px] border-t lg:border lg:border-t-0 border-[##1F1F1F] flex-1 w-[142px] flex items-center justify-center">
+          <div className="h-[142px] border-t lg:border lg:border-t-0 border-[##1F1F1F] flex-1 w-[142px] flex items-center justify-center hover:border-[#E5E7EB] hover:border transition">
             <img src={Logo4} alt="Logo four" />
           </div>
-          <div className="h-[142px] w-[142px] flex items-center flex-1 justify-center border-t border-l lg:border lg:border-t-0 border-[##1F1F1F]">
+          <div className="h-[142px] w-[142px] flex items-center flex-1 justify-center border-t border-l lg:border lg:border-t-0 border-[##1F1F1F] hover:border-[#E5E7EB] hover:border transition">
             <img src={Logo5} alt="Logo five" />
           </div>
-          <div className="h-[142px] w-[142px] flex items-center flex-1 justify-center border-l border-t lg:border-t-0 lg:border-r lg:border-l border-[#1F1F1F]">
+          <div className="h-[142px] w-[142px] flex items-center flex-1 justify-center border-l border-t lg:border-t-0 lg:border-r lg:border-l border-[#1F1F1F] hover:border-[#E5E7EB] hover:border transition">
             <img src={Logo6} alt="Logo six" />
           </div>
         </div>

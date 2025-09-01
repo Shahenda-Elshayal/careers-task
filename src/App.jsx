@@ -6,6 +6,7 @@ import Dashboard from "./components/Dashboard";
 import LogoCloud from "./components/LogoCloud";
 import FeatureSection from "./components/FeatureSection";
 import TestimonialsSection from "./components/TestimonialsSection";
+import PriceSection from "./components/PriceSection";
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
         <LogoCloud />
         <FeatureSection />
         <TestimonialsSection />
+        <PriceSection/>
       </div>
     </>
   );
