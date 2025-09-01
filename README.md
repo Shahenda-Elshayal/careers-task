@@ -1,12 +1,46 @@
-# React + Vite
+# Landing Page - Frontend Task
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **responsive landing page** built with **React.js**, based on the provided Figma design.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
+- **Framework:** React.js (chosen since the task is a simple landing page without routing)
+- **Styling:** Tailwind CSS + DaisyUI
+- **Deployment:** Vercel
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📂 Project Structure
+- All UI sections are implemented as **separate reusable components**.
+- **Props** are used where applicable for cleaner and more maintainable code.
+- Fully responsive across **desktop, tablet, and mobile**.
 
-## Expanding the ESLint configuration
+## 📝 Notes
+- Two elements from the Figma design were implemented as **static images** instead of detailed components:
+  - ![Screenshot 1](./path-to-screenshot1.png)
+  - ![Screenshot 2](./path-to-screenshot2.png)
+- The rest of the design is implemented using components and follows the given design specifications (spacing, typography, hover states).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🌍 Live Preview
+Deployed on Vercel: [Live Link](https://careers-task.vercel.app/)
+
+## ⚙️ Setup Instructions
+1. Clone the repository:
+   ```bash
+   git clone <repo-url>
+   
+1. Navigate into the project folder:
+   ```bash
+   cd careers-task
+
+3. Install dependencies:
+   ```bash
+   npm install
+
+4.  Start the development server:
+   ```bash
+   npm run dev
+
+
+
+
+
+
+
