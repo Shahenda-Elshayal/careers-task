@@ -16,8 +16,8 @@ This project is a **responsive landing page** built with **React.js**, based on 
 - Two elements from the Figma design were implemented as **static images** instead of detailed components:
 
 - <div align="center">
-  <img src="https://github.com/user-attachments/assets/69dd5962-d6db-4b31-977f-59eca99fdeb5" alt="Screenshot 1" width="500"/>
-  <br/><br/>
+<img width="951" height="505" alt="Image" src="https://github.com/user-attachments/assets/9a810a4b-ba03-4b31-8784-fb736281ddec" />Ï
+<br/><br/>
   <img src="https://github.com/user-attachments/assets/b592ca5b-b759-4baf-b68b-de5d28c6a78d" alt="Screenshot 2" width="500"/>
 </div>
 
