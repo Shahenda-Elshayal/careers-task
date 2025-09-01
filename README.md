@@ -20,8 +20,6 @@ This project is a **responsive landing page** built with **React.js**, based on 
 <br/><br/>
 <img width="951" height="754" alt="Image" src="https://github.com/user-attachments/assets/5c6ca866-9caf-4759-9925-faf3280fc813" /></div>
 
-  - ![Screenshot 1](<img width="951" height="505" alt="Image" src="https://github.com/user-attachments/assets/9a810a4b-ba03-4b31-8784-fb736281ddec" />)
-  - ![Screenshot 2](./path-to-screenshot2.png)
 - The rest of the design is implemented using components and follows the given design specifications (spacing, typography, hover states).
 
 ## 🌍 Live Preview
