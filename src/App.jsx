@@ -1,7 +1,9 @@
 import "./App.css";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
-import BgImg from "./assets/images/bgImg.jpg";
+// import BgImg from "./assets/images/bgImg.jpg";
+import HeroBg from "./assets/images/hero-bg.png";
+import StarsBg from "./assets/images/logos-cloud-bg-stars.png";
 import Dashboard from "./components/Dashboard";
 import LogoCloud from "./components/LogoCloud";
 import FeatureSection from "./components/FeatureSection";
@@ -13,15 +15,20 @@ export default function App() {
   return (
     <>
       <div className="bg-gradient-to-b from-[#1B1B1D] to-[#070708]">
-        {/* <div style={{ backgroundImage: `url(${BgImg})` }} className="bg-cover"> */}
-        <Navbar />
-        <HeroSection />
-        <Dashboard />
-        <LogoCloud />
+        <div style={{ backgroundImage: `url(${HeroBg})` }}>
+          <Navbar />
+          <HeroSection />
+        </div>
+        <div style={{ backgroundImage: `url(${StarsBg})` }}>
+          <Dashboard />
+        </div>
+        <div style={{ backgroundImage: `url(${StarsBg})` }}>
+          <LogoCloud />
+        </div>
         <FeatureSection />
         <TestimonialsSection />
-        <PriceSection/>
-        <Footer/>
+        <PriceSection />
+        <Footer />
       </div>
     </>
   );

@@ -16,7 +16,7 @@ export default function PriceCard({
 }) {
   return (
     <div
-      className={`card shadow-sm rounded-2xl ${bgColor} border border-[#FFFFFF0F] h-[534px]`}
+      className={`card shadow-sm rounded-2xl ${bgColor} border border-[#FFFFFF0F] h-[534px] lg:hover:-translate-y-5 transition`}
     >
       <div className="card-body flex-0 p-0 pl-[25px] pr-[25px] pt-[33px] pb-[25px]">
         {vip && (

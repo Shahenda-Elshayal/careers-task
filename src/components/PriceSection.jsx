@@ -152,7 +152,7 @@ export default function PriceSection() {
               <p className="text-white font-[400] text-[16px] opacity-80 mb-6">
                 monthly
               </p>
-              <button className="w-[240px] rounded-[26px] text-[#09090A] text-[14px] font-medium bg-white mb-3 p-2">
+              <button className="w-[240px] cursor-pointer rounded-[26px] text-[#09090A] text-[14px] font-medium bg-white mb-3 p-2">
                 Request Access
               </button>
               <p className="text-white text-left font-[400] text-[12px] opacity-50 ">

@@ -1,4 +1,5 @@
 import React from "react";
+import LogoImg from "../assets/images/logo.png";
 
 export default function Navbar() {
   return (
@@ -8,23 +9,24 @@ export default function Navbar() {
           {/* Left side: Logo + Nav links */}
           <div className="flex items-center gap-6">
             {/* Logo */}
-            <p className="text-white flex items-center gap-2 text-3xl ">
+            {/* <p className="text-white flex items-center gap-2 text-3xl ">
               <span className="text-6xl translate-y-3 inline-block">*</span>
               scout
-            </p>
+            </p> */}
+            <img src={LogoImg} alt="Logo Image" />
 
             {/* Navigation links */}
             <ul className="hidden md:flex gap-6 text-[16px] font-[400] text-text-nav-color ">
-              <li>
+              <li className="cursor-pointer">
                 <a className="hover:text-white">Features</a>
               </li>
-              <li>
+              <li className="cursor-pointer">
                 <a className="hover:text-white">Pricing</a>
               </li>
-              <li>
+              <li className="cursor-pointer">
                 <a className="hover:text-white">Docs</a>
               </li>
-              <li>
+              <li className="cursor-pointer">
                 <a className="hover:text-white">Blog</a>
               </li>
             </ul>
